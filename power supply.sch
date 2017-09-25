@@ -711,7 +711,7 @@ To power port on rear panel
 Text Notes 7300 1950 0    60   ~ 0
 To binding posts on front panel
 Text Notes 5700 1700 0    60   ~ 0
-Requires a heatsink\nTODO: power dissipation calculations
+Requires a heatsink\nWorst case: 12V supply downregulated to 0V at 1A\nSuppose TA = 305K\nHeatsink TR budget of 4.0K/W.\nUse 3.0K/W for safety margin.
 Wire Notes Line
 	8800 2250 10200 2250
 Wire Notes Line
